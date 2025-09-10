@@ -1,13 +1,9 @@
-string = input("please enter your word")
+print("half pyramid of stars(*):")
 
-char = input("enter charecter")
-i = 8
-count = 0
+n = int(input("enter the number of rows"))
 
-while((< len (string)  )):
+for i in range(n):
 
-    if (string[i] == char):
-        count = count + 1
-    i = i+1
-
-print('the total number of lines ',char ,"has occered =", count)
+    for j in range(i+1):
+        print("*",end="") 
+    print()
